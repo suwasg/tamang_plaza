@@ -1,0 +1,35 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+
+
+// {
+//   "compilerOptions": {
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "jsx": "react-jsx",
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "moduleResolution": "Bundler",
+//     "skipLibCheck": true
+//   }
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "strict": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "skipLibCheck": true,
+//     "allowJs": true,
+//     "outDir": "dist",
+//     "rootDir": "src",
+//     "baseUrl": "."
+//   },
+//   "include": ["src", "src/routeTree.gen.ts"]
+// }
