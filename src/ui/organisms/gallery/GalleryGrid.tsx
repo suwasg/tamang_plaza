@@ -11,14 +11,14 @@ const galleryData = [
 
 const GalleryGrid: React.FC = () => {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white py-4">
       <div className="max-w-screen-xl px-4 mx-auto sm:py-4 lg:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
           {/* First Section */}
           {/* <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-full">
             <GalleryCard {...galleryData[0]} fullHeight />
           </div> */}
-                              <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+          <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
             <GalleryCard {...galleryData[0]} className="mb-4" />
            
               <GalleryCard {...galleryData[3]} />

@@ -12,17 +12,16 @@ const Service: React.FC = () => {
   const content = `Tamang Plaza is a wholesome complete catering service and event management business company. After our various catering and banquet business work since 1998 we are today established as a successful banquet company in Nepal with young, imaginative, keen and dynamic professionals with a sparkling stream of ideas having vast experience in the field of catering services and events.`;
 
   return (
-    <section className="overflow-hidden bg-white pt-10 dark:bg-dark">
-        <h1>service organisms</h1>
-      <div className="container mx-auto px-6 sm:px-12">
+    <section className="overflow-hidden bg-white pt-4 dark:bg-dark">
+\      <div className="container mx-auto px-6 sm:px-12">
         <div className="flex flex-wrap items-center justify-between">
           {/* Left Images */}
-          <div className="w-full px-4 lg:w-6/12">
+          <div className="w-full px-4 lg:w-1/2">
             <ServiceImageGallery images={images} />
           </div>
 
           {/* Right Content */}
-          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+          <div className="w-full px-4 lg:w-1/2 ">
             <ServiceTextBlock
               title="About Tamang Plaza"
               content={content}

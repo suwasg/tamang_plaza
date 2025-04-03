@@ -24,9 +24,8 @@ const GallerySection: React.FC = () => {
       },
     ];
     return (
-      <section className="bg-white py-10">
-        <h1>Gallery Section </h1>
-        <div className="max-w-screen-xl px-4 mx-auto sm:py-4 lg:px-6">
+      <section className="bg-white">
+        <div className="max-w-screen-xl px-6 mx-auto sm:px-12">
           <GalleryGrid  />
         </div>
       </section>

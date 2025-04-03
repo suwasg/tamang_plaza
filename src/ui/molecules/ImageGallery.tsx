@@ -43,12 +43,12 @@ const ImageGallery: React.FC = () => {
         <meta name="description" content="Browse through our image gallery with stunning visuals." />
       </Helmet> */}
 
-      <section className=" bg-gray-100 py-4 dark:bg-gray-800 font-poppins">
-        <div className="p-4 mx-auto max-w-6xl">
-          <h2 className="pb-4 font-bold text-center text-gray-800 text-4xl dark:text-gray-400">
+      <section className=" bg-gray-100  dark:bg-gray-800 font-poppins">
+        <div className="mx-auto max-w-6xl">
+          <h2 className=" font-bold text-center text-gray-800 text-4xl dark:text-gray-400">
             Our Gallery
           </h2>
-          <div className="mx-auto mb-10 border-b border-yellow-700 w-44 dark:border-gray-400"></div>
+          {/* <div className="mx-auto mb-10 border-b border-yellow-700 w-44 dark:border-gray-400"></div> */}
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 mt-8">
             {dummyImages.map((image, index) => (
               <ImageCard key={image.id} src={image.url} alt="image" caption={image.caption} onClick={() => openImage(index)} />

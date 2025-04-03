@@ -18,9 +18,9 @@ const ServiceImageGallery: React.FC<ServiceImageGalleryProps> = ({ images }) => 
       <div className="w-full px-3 sm:px-4 xl:w-1/2">
         <div className="relative z-10 my-4">
           <ServiceImage src={images[2]} alt="about3" />
-          <div className="absolute -bottom-16 -right-12 z-[-1]">
+          {/* <div className="absolute -bottom-16 -right-12 z-[-1]">
             <img src={images[3]} alt="about-extra" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
